@@ -34,7 +34,8 @@
 
     <!-- Main-Left Sidebar Con Logo Spotify -->
     <div class="main-left float-left">
-      <img class="logo-spoty" src="img/logo.svg" alt="">
+      <div class="nav-top">
+        <img class="logo-spoty" src="img/logo.svg" alt="">
       <div>
         <ul>
           <li><i class="fa-solid fa-house"></i> Home</li>
@@ -46,8 +47,8 @@
           <!-- Playlist con link -->
 
       <div>
-        <h2> Playlist</h2>
-        <a href="#"><i class="fa-solid fa-square-plus"></i> Crea Playlist</a>
+        <h2 class="playlist"> Playlist</h2>
+        <a href="#"><i class="fa-solid fa-square-plus playlist"></i></a><span class="add-play">Crea Playlist</span>
         <ul>
           <li><a href="#"></a>None Playlist</li>
           <li><a href="#"></a>None Playlist</li>
@@ -58,19 +59,22 @@
           <li><a href="#"></a>None Playlist</li>
         </ul>
       </div>
-
-      <div class="d-flex bottom-nav">
-        <p>ciao</p>
       </div>
+      <div class="nav-bottom">
+        <h3><i class="fa-solid fa-circle-arrow-down"></i> Installa App</h3>
+        <div class="bordo-installer"></div>
+        <div class="utente"><i class="fa-solid fa-circle-user"></i> John Doe</div>
+
+    </div>
+    </div>
 
           <!-- Fine Playlist con link -->
 
       <!-- Main-Left Sidebar Con Logo Spotify -->
 
-    </div>
-
-
+    
     <!-- Main Center Album Music -->
+
     <div class="main-center float-left">asss</div>
 
 
@@ -81,6 +85,14 @@
   </main>
 
   <!-- Fine Main  -->
-  <footer class="debug h100"></footer>  
+  <footer class="debug d-flex barra-music">
+    <div class="song-cover">
+      <img class="img-song" src="img/sinister.jpeg" alt="">
+      <h4>Sinister</h4>
+      <p>Brano Nome</p>
+    </div>
+    <div class="player-center">b</div>
+    <div class="player-right">c</div>
+  </footer>  
 </body>
 </html>

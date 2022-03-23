@@ -42,6 +42,21 @@ main {
 
 }
 
+.nav-top{
+  height: calc(100% - 70px);
+}
+
+.nav-bottom {
+  height: 70px;
+}
+
+
+
+.add-play {
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+
 
 .logo-spoty {
   width: 53%;
@@ -52,13 +67,65 @@ ul li {
   margin: 5px 13px;
 }
 
-h2 {
-  text-transform: uppercase;
+.playlist{
+  margin: 5px 13px;
 }
 
-.bottom-nav {
-  flex-direction: column-reverse;
-} 
+
+h2 {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+
+
+p {
+  justify-content: flex-end;
+}
+
+
+
+.bordo-installer {
+  border: 1px solid red;
+}
+
+
+/* Main */
+
+
+
+
+/* Footer */
+
+.barra-music {
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.player-center {
+  width: 40%;
+}
+
+.player-right {
+  width: 230px;
+}
+
+.img-song {
+  width: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
 
 
 
