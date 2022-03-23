@@ -8,27 +8,26 @@ header {
   top: 0;
   right: 0;
   width: calc(100% - 250px);
+  justify-content: flex-end;
+  align-items: center;
+  
 }
 
 .bottone {
   background-color: red;
   display: inline-block;
-  padding: 10px 23px;
-  border-radius: 102px;
+  padding: 12px 46px;
+  border-radius: 70px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 11px;
   cursor: pointer;
-  margin-left: 13px;
+  margin-left: 7px;
   margin-top: 9px;
   text-transform: uppercase;
+  height: 34px;
+  text-align: center;
+
 }
-
-
-
-
-
-
-
 
 /* header */
 
@@ -93,6 +92,12 @@ ul li {
   margin: 5px 13px;
 }
 
+.link-playlist{
+  color: rgb(163, 163, 163);
+  font-size: 35px;
+}
+ 
+
 
 h2 {
   text-transform: uppercase;
@@ -109,6 +114,12 @@ p {
 
 .bordo-installer {
   border: 1px solid red;
+}
+
+.album-recent {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 
