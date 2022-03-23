@@ -10,6 +10,19 @@ header {
   width: calc(100% - 250px);
 }
 
+.bottone {
+  background-color: red;
+  display: inline-block;
+  padding: 10px 23px;
+  border-radius: 102px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 13px;
+  margin-top: 9px;
+  text-transform: uppercase;
+}
+
 
 
 
@@ -39,6 +52,8 @@ main {
   height: calc(100% - 100px );
   margin-top: 100px;
   background-color: blue;
+  overflow-y: auto;
+  overflow-x: hidden;
 
 }
 
@@ -50,7 +65,14 @@ main {
   height: 70px;
 }
 
-
+.nav-list {
+  text-align: center;
+}
+.nav-sezioni {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+}
 
 .add-play {
   padding-bottom: 20px;
