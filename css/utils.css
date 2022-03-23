@@ -12,6 +12,12 @@ body {
 }
 
 
+main {
+  height: calc(100vh - 100px);
+
+}
+
+
 ul {
   list-style: none;
 }
