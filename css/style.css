@@ -118,6 +118,19 @@ p {
 .album-recent img {
   width: 100%;
 }
+
+.img-album {
+  width: calc((100% - 120px) / 6);
+  margin-left:20px ;
+
+}
+
+.title-album {
+  text-align: center;
+}
+
+
+
 /* Main */
 
 
@@ -163,6 +176,12 @@ p {
   font-size: 5px;
 }
 
+.buttons-music {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
 
 .track-play {
   justify-content: space-between;
@@ -178,10 +197,11 @@ p {
 .player-right {
   width: 300px;
   padding-right: 15px;
+  padding-left: 90px;
 }
 
 .volume {
-  width: 35%;
+  width: 48%;
 }
 
 .time-total,
@@ -203,6 +223,14 @@ p {
 
 .level-volume {
   margin-top: 8px;
+}
+
+.buttons-music i {
+  margin: 8px;
+}
+
+.grey {
+  rgb(141, 141, 141)
 }
 
 

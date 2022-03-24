@@ -17,6 +17,10 @@ main {
 
 }
 
+footer {
+  color: white;
+}
+
 
 ul {
   list-style: none;
@@ -26,4 +30,11 @@ a {
   text-decoration: none;
 }
 
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: grey;
+}
 
