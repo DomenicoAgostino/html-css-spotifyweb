@@ -38,3 +38,11 @@ a {
   color: grey;
 }
 
+.album-listen {
+  margin-top: 15px;
+}
+
+.listen-text {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
