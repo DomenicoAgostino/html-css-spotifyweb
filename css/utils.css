@@ -14,11 +14,13 @@ body {
 
 main {
   height: calc(100vh - 100px);
+  background-color: rgb(20, 25, 34);
 
 }
 
 footer {
   color: white;
+  background-color: rgb(40, 40, 40);
 }
 
 
@@ -29,6 +31,12 @@ ul {
 a {
   text-decoration: none;
 }
+
+a .text-white{
+  color: white;
+}
+
+
 
 .text-white {
   color: white;
