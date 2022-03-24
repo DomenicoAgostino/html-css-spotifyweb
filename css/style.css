@@ -175,16 +175,36 @@ p {
   min-width: calc(100% - 100px);
 }
 
-.time-total{
+.player-right {
+  width: 300px;
+  padding-right: 15px;
+}
+
+.volume {
+  width: 35%;
+}
+
+.time-total,
+.time-volume {
   width: 100%;
   background-color:rgb(94, 94, 94);
   border-radius: 5px;
 }
 
-.time-passed {
+.time-passed,
+.level-volume {
   width: 40%;
   border: 2px solid rgb(196, 196, 196);
 }
+
+.player-right i{
+  padding-right: 15px;
+}
+
+.level-volume {
+  margin-top: 8px;
+}
+
 
 
 /* Footer */
