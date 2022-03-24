@@ -16,7 +16,7 @@ header {
 
 .bottone {
   display: inline-block;
-  padding: 10px 46px;
+  padding: 8px 46px;
   border-radius: 70px;
   border-style: ridge;
   border-color: white;
@@ -59,7 +59,31 @@ header {
 
 .nav-bottom {
   height: 70px;
+  overflow-x: auto;
 }
+
+.installer {
+  font-size: 13px;
+}
+
+.utente {
+  font-size: 18px;
+
+}
+
+.linee-green {
+  border: 2px solid rgb(191, 242, 112);
+  margin-top: 5px;
+  margin-left: 35px;
+  width: 39%;
+}
+
+/* .linee-nav {
+  border: 2px solid rgb(191, 242, 112);
+  margin-top: 10px;
+} */
+
+
 
 .nav-list {
   text-align: center;
@@ -81,12 +105,28 @@ header {
   margin: 20px;
 }
 
+.logo-spoty-2 {
+  display: none;
+  width: 53%;
+  margin: 20px;
+}
+
+.fa-house, .fa-magnifying-glass, .fa-lines-leaning {
+  font-size: 22px;
+}
+
+.fa-square-plus {
+  font-size: 45px;
+}
+
+
 ul li {
-  margin: 5px 13px;
+  margin: 11px 13px;
 }
 
 .playlist{
-  margin: 5px 13px;
+  margin: 10px 13px;
+  padding-top: 7px;
 }
 
 .link-playlist{
@@ -109,7 +149,8 @@ p {
 
 
 .bordo-installer {
-  border: 1px solid red;
+  border: 1px solid gray;
+  margin: 10px;
 }
 
 .album-recent {
@@ -242,6 +283,20 @@ p {
 
 
 /* Footer */
+
+/* HOVER */
+.nav-top ul li:hover,
+.playlist-position ul a li:hover,
+.nav-bottom :hover,
+.bordo-installer :hover,
+nav ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
 
 
 

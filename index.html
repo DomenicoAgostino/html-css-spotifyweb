@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/utils.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,9 +38,10 @@
     <div class="main-left float-left">
       <div class="nav-top">
         <img class="logo-spoty" src="img/logo.svg" alt="">
+        <img class="logo-spoty-2" src="img/logo-small.svg" alt="">
       <div>
         <ul>
-          <li><i class="fa-solid fa-house"></i> Home</li>
+          <li><span class="linee-nav"></span><i class="fa-solid fa-house"></i> Home</li>
           <li><i class="fa-solid fa-magnifying-glass"></i> Cerca</li>
           <li><i class="fa-solid fa-lines-leaning"></i> La tua libreria</li>
         </ul>
@@ -47,11 +49,11 @@
 
           <!-- Playlist con link -->
 
-      <div>
+      <div class="playlist-position">
         <h2 class="playlist transf-text"> Playlist</h2>
-        <a href="#"><i class="fa-solid fa-square-plus playlist"></i></a><span class="add-play">Crea Playlist</span>
-        <ul>
-          <li><a class="link-playlist" href="#"></a>None Playlist</li>
+        <ul class="text-grey">
+          <li><a class="" href="#"><i class="fa-solid fa-square-plus playlist text-grey"></i></a><span class="add-play">Crea Playlist</span></li>
+          <li><a class="link-playlist text-grey" href="#"></a>None Playlist</li>
           <li><a class="link-playlist" href="#"></a>None Playlist</li>
           <li><a class="link-playlist" href="#"></a>None Playlist</li>
           <li><a class="link-playlist" href="#"></a>None Playlist</li>
@@ -62,9 +64,9 @@
       </div>
       </div>
       <div class="nav-bottom">
-        <h3><i class="fa-solid fa-circle-arrow-down"></i> Installa App</h3>
+        <h3 class="installer text-grey"><i class="fa-solid fa-circle-arrow-down"></i> Installa App</h3>
         <div class="bordo-installer"></div>
-        <div class="utente"><i class="fa-solid fa-circle-user"></i> John Doe</div>
+        <div class="utente text-grey"><i class="fa-solid fa-circle-user"></i> John Doe</div>
 
     </div>
     </div>
@@ -80,7 +82,10 @@
     <div class="main-center float-left">
       <nav>
         <ul class="nav-list">
-          <li class="nav-sezioni"><a class="text-grey" href="#">in evidenza</a></li>
+          <li class="nav-sezioni">
+            <a class="text-grey" href="#">in evidenza</a>
+          <div class="linee-green"></div>
+          </li>
           <li class="nav-sezioni"><a class="text-grey" href="#">podcast</a></li>
           <li class="nav-sezioni"><a class="text-grey" href="#">classifiche</a></li>
           <li class="nav-sezioni"><a class="text-grey" href="#">generi e mood</a></li>
@@ -195,6 +200,9 @@
   </main>
 
   <!-- Fine Main  -->
+
+
+   <!-- Footer -->
   <footer class="d-flex barra-music">
     <div class="song-cover d-flex">
       <img class="img-song" src="img/sinister.jpeg" alt="">
