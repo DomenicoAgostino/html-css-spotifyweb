@@ -157,15 +157,34 @@ p {
 
 
 .border-span {
-  border: 1px solid blue;
+  border-left-color: rgb(197, 197, 197);
+  border-left-style: solid;
+  border-left-width: 380px;
+  font-size: 5px;
 }
 
 
+.track-play {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 0.7rem
+}
 
+.frame-music {
+  min-width: calc(100% - 100px);
+}
 
+.time-total{
+  width: 100%;
+  background-color:rgb(94, 94, 94);
+  border-radius: 5px;
+}
 
-
-
+.time-passed {
+  width: 40%;
+  border: 2px solid rgb(196, 196, 196);
+}
 
 
 /* Footer */
